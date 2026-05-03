@@ -12,7 +12,7 @@ st.sidebar.header("Summary Settings")
 
 summary_type = st.sidebar.selectbox(
     "Choose Length",
-    ["Short", "Medium", "Detailed"]
+    [10, 15, 20]
 )
 
 bullet_points = st.sidebar.checkbox("Bullet Point Summary")
@@ -42,7 +42,7 @@ if st.button("generate summary"):
 
     Rules:
     1. Always give summary in bullet points.
-    2. Summary length must be {summary_length}.
+    2. give total {summary_length} bullet points.
     3. Keep only important points.
     4. Use simple and clear English.
     5. Make output neat and readable.
