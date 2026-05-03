@@ -42,7 +42,7 @@ if st.button("generate summary"):
 
     Rules:
     1. Always give summary in bullet points.
-    2. give total {summary_length} bullet points.
+    2. give total {summary_type} bullet points.
     3. Keep only important points.
     4. Use simple and clear English.
     5. Make output neat and readable.
